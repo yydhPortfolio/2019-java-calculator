@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.MainController">
+   <children>
+      <Button layoutX="30.0" layoutY="120.0" mnemonicParsing="false" onAction="#btnPlu" prefHeight="50.0" prefWidth="60.0" text="+" textAlignment="CENTER" />
+      <Button layoutX="120.0" layoutY="120.0" mnemonicParsing="false" onAction="#btnMin" prefHeight="50.0" prefWidth="60.0" text="-" />
+      <Button layoutX="310.0" layoutY="120.0" mnemonicParsing="false" onAction="#btnSla" prefHeight="50.0" prefWidth="60.0" text="/" />
+      <Button layoutX="220.0" layoutY="120.0" mnemonicParsing="false" onAction="#btnX" prefHeight="50.0" prefWidth="60.0" text="X" />
+      <Button layoutX="30.0" layoutY="192.0" mnemonicParsing="false" onAction="#btn7" prefHeight="50.0" prefWidth="60.0" text="7" />
+      <Button layoutX="120.0" layoutY="192.0" mnemonicParsing="false" onAction="#btn8" prefHeight="50.0" prefWidth="60.0" text="8" />
+      <Button layoutX="220.0" layoutY="192.0" mnemonicParsing="false" onAction="#btn9" prefHeight="50.0" prefWidth="60.0" text="9" />
+      <Button layoutX="310.0" layoutY="192.0" mnemonicParsing="false" onAction="#btnAc" prefHeight="50.0" prefWidth="60.0" text="C" />
+      <Button layoutX="30.0" layoutY="270.0" mnemonicParsing="false" onAction="#btn4" prefHeight="50.0" prefWidth="60.0" text="4" />
+      <Button layoutX="30.0" layoutY="348.0" mnemonicParsing="false" onAction="#btn1" prefHeight="50.0" prefWidth="60.0" text="1" />
+      <Button layoutX="120.0" layoutY="270.0" mnemonicParsing="false" onAction="#btn5" prefHeight="50.0" prefWidth="60.0" text="5" />
+      <Button layoutX="220.0" layoutY="270.0" mnemonicParsing="false" onAction="#btn6" prefHeight="50.0" prefWidth="60.0" text="6" />
+      <Button layoutX="310.0" layoutY="270.0" mnemonicParsing="false" onAction="#btnEqu" prefHeight="50.0" prefWidth="60.0" text="=" />
+      <Button layoutX="220.0" layoutY="348.0" mnemonicParsing="false" onAction="#btn2" prefHeight="50.0" prefWidth="60.0" text="2" />
+      <Button layoutX="120.0" layoutY="348.0" mnemonicParsing="false" onAction="#btn3" prefHeight="50.0" prefWidth="60.0" text="3" />
+      <Button layoutX="310.0" layoutY="348.0" mnemonicParsing="false" onAction="#btn0" prefHeight="50.0" prefWidth="60.0" text="0" />
+      <TextField fx:id="results" alignment="CENTER_RIGHT" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="81.0" prefWidth="272.0" text="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
